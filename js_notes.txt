@@ -1,0 +1,98 @@
+JavaScript is an object-based scripting language which is lightweight and cross-platform.
+JavaScript is not a compiled language, but it is a translated language. The JavaScript Translator (embedded in the browser) is responsible for translating the JavaScript code for the web browser.
+JavaScript follows the syntax and structure of the C programming language. Thus, it is a structured programming language.It is a case-sensitive language.
+in dec 1995 JavaScript came into existence.
+
+applications : 
+drop down 
+display date and time
+display pop ups , dialogue boxes 
+display clocks
+
+3 Places to put JavaScript code
+Between the body tag of html
+Between the head tag of html
+In .js file (external javaScript)
+
+
+If two js files are dependent on one another, then a failure in one file may affect the execution of the other dependent file.
+
+There are two types of variables in JavaScript : local variable and global variable.
+There are some rules while declaring a JavaScript variable (also known as identifiers).
+
+Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+After first letter we can use digits (0 to 9), for example value1.
+JavaScript variables are case sensitive, for example x and X are different variables.
+
+A JavaScript local variable is declared inside block or function. It is accessible within the function or block only
+A JavaScript global variable is accessible from any function. A variable i.e. declared outside the function
+
+
+there are two types of data types in JavaScript.
+
+Primitive data type
+Non-primitive (reference) data type
+
+javaScript is a dynamic type language, means you don't need to specify type of the variable because it is dynamically used by JavaScript engine. You need to use var here to specify the data type.
+
+JavaScript operators are symbols that are used to perform operations on operands
+
+There are four types of loops in JavaScript.
+
+for loop
+while loop
+do-while loop
+for-in loop
+
+
+A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc.
+
+JavaScript is an object-based language. Everything is an object in JavaScript.
+
+JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+
+JavaScript Object by object literal
+The syntax of creating object using object literal is given below:
+
+object={property1:value1,property2:value2.....propertyN:valueN}  
+
+By creating instance of Object
+The syntax of creating object directly is given below:
+
+var objectname=new Object();  
+Here, new keyword is used to create object.By using an Object constructor
+Here, you need to create function with arguments. Each argument value can be assigned in the current object by using this keyword.
+
+The this keyword refers to the current object.
+
+There are 3 ways to construct array in JavaScript
+
+By array literal
+By creating instance of Array directly (using new keyword)
+By using an Array constructor (using new keyword)
+1) JavaScript array literal
+The syntax of creating array using array literal is given below:
+
+var arrayname=[value1,value2.....valueN];  
+
+
+avaScript Array directly (new keyword)
+The syntax of creating array directly is given below:
+
+var arrayname=new Array();  
+
+getElementById()	returns the element having the given id value.
+getElementsByName()	returns all the elements having the given name value.
+
+
+The change in the state of an object is known as an Event. In html, there are various events which represents that some activity is performed by the user or by the browser. When javascript code is included in HTML, js react over these events and allow the execution. This process of reacting over the events is called Event Handling. Thus, js handles the HTML events via Event Handlers.
+
+
+EventPerformed	Event Handler	Description
+click	        onclick	        When mouse click on an element
+
+
+The addEventListener() method is used to attach an event handler to a particular element. It does not override the existing event handlers. 
+
+event: It is a required parameter. It can be defined as a string that specifies the event's name.
+
